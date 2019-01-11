@@ -2,23 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link href="css/style.css" rel="stylesheet">
     <title>Контакты - интернет-магазин</title>
 </head>
 <body>
-    <ul>
-        <li><a href="./">Главная</a></li>
-        <li><a href="catalog">Каталог</a></li>
+    <ul class="menu">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="catalog.html">Каталог</a></li>
         <li><b>Контакты</b></li>
     </ul>
     <hr>
     <h1>Контакты</h1>
-    <form action="../" method="post">
+    <form action="contacts.html" method="post" class="contacts">
         <fieldset>
             <legend>Напишите нам</legend>
-            <input name="name" placeholder="Ваше имя" size="50"><br><br>
-            <input name="email" placeholder="Ваш email" size="50"><br><br>
-            <input name="subj" placeholder="Тема сообщения" size="50"><br><br>
-            <textarea name="text" placeholder="Тескт сообщения" cols="52"></textarea><br><br>
+            <input name="name" placeholder="Ваше имя"><br>
+            <input name="email" placeholder="Ваш email"><br>
+            <input name="subj" placeholder="Тема сообщения"><br>
+            <textarea name="text" placeholder="Тескт сообщения"></textarea><br>
             <button type="submit">Отправить</button>
         </fieldset>
     </form>
