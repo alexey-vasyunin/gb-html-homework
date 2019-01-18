@@ -6,7 +6,7 @@ body {
 }
 
 ul.menu {
-    font-size: 18px;
+    font-size: 24px;
     color: darkcyan;
     marker: none;
 }
@@ -15,8 +15,12 @@ ul.menu > li {
     list-style-type: none;
 }
 
-a.menu {
+ul.menu a {
     text-decoration: none;
+}
+
+ul.menu a:hover {
+    color: darkgoldenrod;
 }
 
 h2 {
@@ -48,6 +52,14 @@ ul.specification {
     list-style-image: url("../images/li1.png");
 }
 
+table.specification {
+    border-collapse: collapse;
+}
+
+table.specification td {
+    border: 1px solid grey;
+}
+
 form.contacts fieldset {
     width: 514px;
 }
@@ -57,6 +69,12 @@ form.contacts input {
     line-height: 26px;
     margin: 4px;
     color: #000050;
+    text-transform: capitalize;
+}
+
+form.contacts input[name="email"]:focus {
+    background: grey;
+    color: white;
 }
 
 form.contacts textarea{
@@ -65,6 +83,7 @@ form.contacts textarea{
     height: 200px;
     margin: 4px;
     color: #000050;
+    text-transform: capitalize;
 }
 
 form.contacts button {
@@ -73,5 +92,24 @@ form.contacts button {
 
 img.preview {
     width: 360px;
-    border: darkgrey solid 1px;
+    border: darkgrey solid 2px;
+}
+
+/* Делаем рамку прозрачной при наведении */
+img.preview:hover {
+    border-color: rgba(0,0,0,0);
+}
+
+.header {
+
+}
+
+.footer {
+    height: 50px;
+    text-align: center;
+}
+
+.description_short:first-letter, .description_full:first-letter {
+    font: bold 52px Cambria, sans-serif;
+    color: chocolate;
 }
