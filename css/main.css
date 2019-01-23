@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+}
+
+.header {
+    height: 700px;
+    background: #abeafa;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.headerContainer {
+    height: inherit;
+    position: relative;
+}
+
+.contentContainer {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20px;
+}
+.content {
+}
+
+.footerContainer {
+    background: darksalmon;
+}
+
+.footer {
+    height: 351px;
+    background-color: #373737;
+}
+
+.logo {
+    background: url("../images/surfhouse_logo.png");
+    display: inline-block;
+    width: 125px;
+    height: 111px;
+    position: absolute;
+    left: 69px;
+    top: 24px;
+}
+
+.socialIcons {
+    position: absolute;
+    right: 64px;
+    top: 50px;
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.welcomeBanner {
+    width: 270px;
+    height: 300px;
+    background-color: #fff51f;
+    position: absolute;
+    top: 336px;
+}
+
+.welcomeBannerHeader {
+    color: #333333;
+    font: 700 30px/30px 'Raleway', sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    top: 79px;
+    left: 26px;
+}
+
+.welcomeBannerText {
+    color: #333333;
+    font: 700 italic 18px/14px 'Raleway', sans-serif;
+    width: 230px;
+    position: absolute;
+    top: 158px;
+    left: 22px;
+}
+
+.buynowBanner {
+    width: 313px;
+    height: 280px;
+    position: absolute;
+    top: 243px;
+    right: 110px;
+}
+
+.buynowBannerHeader {
+    font: 700 48px/32px 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: #fff51f;
+}
+
+.buynowBannerText {
+    font: 400 18px/24px 'Raleway', sans-serif;
+    color: #fff51f;
+}
+
+.buynowBannerButton {
+    text-transform: uppercase;
+    width: 124px;
+    height: 49px;
+    background: #fff51f;
+    font: 900 14px 'Raleway', sans-serif;
+    position: absolute;
+    left: 3px;
+    bottom: 0;
+    border: none;
+}
+
+.contentLeft {
+    width: 270px;
+}
+
+.contentRigth {
+    width: 870px;
+    background: #aafab3;
+}
+
+.leftMenu {
+    height: 475px;
+    background-color: #26d2fc;
+    text-transform: uppercase;
+}
+
+.menuHeader {
+    height: 66px;
+    color: white;
+    background: #333;
+    font: 700 14px/32px 'Roboto', sans-serif;
+    padding-left: 43px;
+    padding-top: 22px;
+    box-sizing: border-box;
+}
+
+.leftMenu > ul {
+    list-style-type: none;
+    margin-top: 6px;
+    font: 700 14px/36px 'Roboto', sans-serif;
+}
+
+.leftMenu > ul > li:hover {
+    background: #333;
+}
