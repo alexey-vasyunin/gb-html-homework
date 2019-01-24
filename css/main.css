@@ -31,10 +31,12 @@ body {
 .footerContainer {
     display: flex;
     justify-content: space-between;
+    padding: 75px 27px 0 27px;
+    box-sizing: border-box;
 }
 
 .footer {
-    height: 351px;
+    height: 300px;
     background-color: #373737;
 }
 
@@ -250,6 +252,11 @@ body {
     text-align: center;
 }
 
+.instafeed i {
+    position: relative;
+    top: 2px;
+}
+
 .pics {
     display: flex;
     justify-content: space-between;
@@ -298,4 +305,33 @@ body {
 .footerColumn a:first-of-type {
     font: 700 18px/26px 'Raleway', sans-serif;
     padding-bottom: 24px;
+}
+
+.sign {
+    background: #333;
+    height: 50px;
+}
+
+.signContainer {
+    color: white;
+    font: 400 12px/50px "Roboto", sans-serif;
+}
+
+.bannerIsNowOpen {
+    width: 270px;
+    height: 300px;
+    background-color: #e0e0e0;
+    margin-top: 30px;
+}
+
+.bannerIsNowOpen > div {
+    float: right;
+    width: 120px;
+    position: relative;
+    top: 150px;
+    font: 700 36px/36px 'Raleway', sans-serif;
+    color: #333333;
+    font-style: italic;
+    line-height: 36px;
+    text-transform: uppercase;
 }
