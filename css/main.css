@@ -124,6 +124,7 @@ body {
 .contentRigth {
     width: 870px;
     background: #f8f8f8;
+    margin-top: 2px;
 }
 
 .leftMenu {
@@ -145,8 +146,7 @@ body {
 }
 
 .leftMenu a:nth-of-type(n+2) {
-    height: 43px;
-    font: 900 14px/43px 'Roboto', sans-serif;
+    font: 900 14px/37px 'Roboto', sans-serif;
     color: #333;
 }
 
@@ -155,10 +155,27 @@ body {
     color: white;
 }
 
+.titles {
+    text-transform: uppercase;
+    font-style: italic;
+    padding-left: 25px;
+
+}
+
 .productsTitle {
+    font: 900 22px/78px "Roboto", sans-serif;
+    color: #707070;
+}
+
+.topTitle {
     text-transform: uppercase;
     font: 900 22px/78px "Roboto", sans-serif;
-    font-style: italic;
+    color: #707070;
+}
+
+.saleTitle {
+    text-transform: uppercase;
+    font: 900 22px/78px "Roboto", sans-serif;
     padding-left: 25px;
     color: #707070;
 }
@@ -328,10 +345,9 @@ body {
     float: right;
     width: 120px;
     position: relative;
-    top: 150px;
+    top: 127px;
     font: 700 36px/36px 'Raleway', sans-serif;
     color: #333333;
     font-style: italic;
-    line-height: 36px;
     text-transform: uppercase;
 }
